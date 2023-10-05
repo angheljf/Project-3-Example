@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- D3 Script -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Plotly Script -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to My Flask App</h1>
+    <p>This is a simple Flask app.</p>
+    <div id="plot"></div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
