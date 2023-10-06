@@ -12,6 +12,10 @@ This is a simple Flask app that serves a single page with some static content.
 1. Start the Flask app: `python app.py`
 2. Open a web browser and navigate to `http://localhost:5000`
 
+## Screenshot of App
+
+![App](images/App_Screenshot.PNG)
+
 ## Credits
 
 This project was created by Angel Milla.
